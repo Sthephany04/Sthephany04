@@ -280,5 +280,21 @@ hr{
 	width: auto;
 }
 
+.footer{
+	background-color: #002224;
+	display: flex;
+	align-items: center;
+	height: 100px;
+	width: auto;
+}
+
+.footer a{
+	color: #FFF;
+	cursor: pointer;
+	font-size: 14px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+
 
 
