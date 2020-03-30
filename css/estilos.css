@@ -43,6 +43,7 @@
 body{
 	font-family: 'Quicksand', sans-serif;
 	margin: 0px;
+	
 	background-color: #592b96;	
 }
 
@@ -140,7 +141,7 @@ header{
 	font-size: 16px;
 	position: absolute;
 	padding-left: 30px;
-	width: 100%;
+	width: auto;
 }
 
 .input{
@@ -161,9 +162,9 @@ header{
 }
 
 .carousel{
-	width: 100%;
+	width: auto;
 	padding: 30px;
-	position: absolute;
+	/*position: absolute;*/
 	overflow: scroll;
 }
 
@@ -186,10 +187,9 @@ header{
 .carousel__container{
 	white-space: nowrap;
 	margin: 30px 0px;
-	padding-bottom: 10px;
+	padding: 0 30px 10px 15px;
 	display: inline-block;
 	transition: 450ms all;
-	padding-left: 15px;
 }
 
 .carousel-item{
